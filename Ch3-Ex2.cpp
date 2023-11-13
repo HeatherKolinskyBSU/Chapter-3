@@ -42,4 +42,14 @@ int main() { // Begins main function.
 	// It then tells the program that, for as long as the value is less than
 	// the value of 9, to decrease the value by 2 and output that value to
 	// the screen.
+
+	cout << endl;
+	cout << "Counting from 100 to 200 in groups of 5 with a 'for' loop:" << endl;
+	for (int countTo100from200 = 100; countTo100from200 <= 200; countTo100from200 += 5) {
+		cout << countTo100from200 << endl;
+	}
+	// Using a 'for' loop, the program first defines the initial value as 100. 
+    // It then tells the program that, for as long as the value is less than
+    // OR equal to the value of 200, to increase the value by 5 and output 
+	// that value to the screen.
 }            // Ends main function.
