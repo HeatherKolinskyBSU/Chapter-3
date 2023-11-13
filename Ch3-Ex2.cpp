@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int main() {                                                    // Begins main function
+int main() { // Begins main function.
 	cout << "Counting from 0 to 50 with a 'for' loop:" << endl;
 	for (int countTo50 = 0; countTo50 <= 50; countTo50++) {
 		cout << countTo50 << endl;
@@ -22,4 +22,14 @@ int main() {                                                    // Begins main f
     // It then tells the program that, for as long as the value is more than
     // OR equal to the value of 0, to decrease the value by 1 and output that
     // value to the screen.
-}                                                               // Ends main function
+
+	cout << " " << endl;
+	cout << "Counting from 30 to 50 with a 'for' loop:" << endl;
+	for (int countTo50from30 = 30; countTo50from30 <= 50; countTo50from30++) {
+		cout << countTo50from30 << endl;
+	}
+	// Using a 'for' loop, the program first defines the initial value as 30. 
+	// It then tells the program that, for as long as the value is more than
+	// OR equal to the value of 50, to decrease the value by 1 and output that
+	// value to the screen.
+}            // Ends main function.
