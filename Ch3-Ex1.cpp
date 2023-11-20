@@ -11,8 +11,8 @@ int main()
 		cout << "Enter a number that isn't 5" << endl;
 		cin >> userInput;
 		if (userInput == forbiddenNumber) {
-			break;
 			cout << "Hey! You weren't supposed to enter 5!" << endl;
+			break;
 		}
 		else {
 			continue;
